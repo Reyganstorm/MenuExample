@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  InfoViewController.swift
 //  MenuExample
 //
 //  Created by Руслан Штыбаев on 14.06.2022.
@@ -7,13 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class InfoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        title = "Information"
+        view.backgroundColor = .systemGreen 
     }
 
-
 }
-
